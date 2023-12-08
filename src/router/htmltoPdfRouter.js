@@ -16,7 +16,7 @@ let uploadMultipleFile = async (req, res, next) => {
   } catch (error) {
     res.json({
       success: false,
-      message: "Html to pdf conversion failed",
+      message: "File upload failed",
     });
   }
 };
