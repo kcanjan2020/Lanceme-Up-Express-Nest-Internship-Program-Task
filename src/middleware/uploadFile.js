@@ -1,5 +1,6 @@
 import multer from "multer";
 import path from "path";
+
 let limit = {
   fileSize: 1024 * 1024 * 3, //3Mb
 };

@@ -3,6 +3,7 @@ import cors from "cors";
 import { port } from "./config.js";
 import connectToMongoDb from "./src/databaseConnection/mongoDbConnection.js";
 import htmlToPdfRouter from "./src/router/htmltoPdfRouter.js";
+
 let expressApp = express();
 expressApp.use(json());
 expressApp.use(cors());
