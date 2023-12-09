@@ -31,7 +31,7 @@ let uploadMultipleFile = async (req, res, next) => {
       ],
 
       subject: "Document Conversion Confirmation",
-      html: `<h1>Your document has been converted successfully.<h1>`,
+      html: `<h1>Your HTML file has been successfully uploaded and converted to PDF.<h1>`,
     });
     res.json({
       success: true,
